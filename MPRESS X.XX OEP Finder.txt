@@ -106,7 +106,7 @@ ret
 
 //Calls a confirmation window for dumping target in Scylla
 TimeToDump:
-msgyn "Successfully found OEP! Wanna use Scylla to dump the target?
+msgyn "Successfully found OEP! Wanna use Scylla to dump the target?"
 cmp 0,$result
 je noscylla
 scylla
