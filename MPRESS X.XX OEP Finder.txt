@@ -45,7 +45,7 @@ cmp dis.imm($address),200 //test for a truly long jump with length >0x200 bytes
 jb Negative
 bp $address
 lbl $address,"First Pattern"
-log "First Pattern found at: {0}", $address
+log "First Pattern found at: {0}",$address
 erun
 bc cip
 sti 2
@@ -61,14 +61,14 @@ cmp dis.imm($address),cip //test for jump pointing to an address above cip
 ja Negative2
 bp $address
 lbl $address,"Second Pattern"
-log "Second Pattern found at: {0}", $address
+log "Second Pattern found at: {0}",$address
 erun
 bc cip
 sti
 
 //Halting at OEP
 lbl cip,"OEP Found :)"
-log "OEP for MPRESS found at: {0}", $address
+log "OEP for MPRESS found at: {0}",cip
 guiupdateenable
 
 //call TimeToDump
