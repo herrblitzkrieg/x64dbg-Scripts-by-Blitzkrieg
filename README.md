@@ -2,4 +2,4 @@
 Original unpacker scripts for x64dbg
 
 All unpacker scripts posted in here are original by Blitzkrieg.
-Dont't ever use them for illegal purpose anyhow!
+Don't ever use them for illegal purpose(s) anyhow!
