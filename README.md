@@ -1,10 +1,10 @@
 # x64dbg Scripts by Blitzkrieg
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg)
+![GitHub repo download](https://img.shields.io/github/downloads/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg/total)
 ![GitHub contributors](https://img.shields.io/github/contributors/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg)
 ![GitHub stars](https://img.shields.io/github/stars/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg?style=social)
-![GitHub forks](https://img.shields.io/github/forks/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg?style=social)
+![Github forks](https://img.shields.io/github/forks/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg?style=social)
 
 Original unpacker scripts for x64dbg
 
