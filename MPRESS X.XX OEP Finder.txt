@@ -103,7 +103,7 @@ bphd
 bpmd
 bpddll
 DisableExceptionBPX
-labelclear (small addition for preventing label collusions)\
+labelclear (small addition for preventing label collusions)
 EnableLog
 //guiupdatedisable (for faster script execution)
 ret
