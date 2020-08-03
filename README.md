@@ -2,6 +2,8 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg)
+![GitHub open issues](https://img.shields.io/github/issues-raw/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg)
+![GitHub open pull requests](https://img.shields.io/github/issues-pr-raw/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg)
 ![GitHub contributors](https://img.shields.io/github/contributors/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg)
 ![GitHub stars](https://img.shields.io/github/stars/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg?style=social)
 ![Github forks](https://img.shields.io/github/forks/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg?style=social)
