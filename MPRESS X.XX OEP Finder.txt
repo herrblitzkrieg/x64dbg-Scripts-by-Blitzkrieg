@@ -6,7 +6,7 @@
 //                                       //
 ///////////////////////////////////////////
 // Prepared by: Blitzkrieg
-// Date       : 3rd July 2020
+// Date       : 27th July 2020
 // Tested on  :
 //
 // Release  |      Target       
@@ -38,7 +38,7 @@ call DisableBreakpoints
 mov $address,cip
 Negative:
 find $address+1,"E9"
-mov $address,$result
+mov $address,$res
 cmp mem.base(cip),dis.imm(dis.imm($address)) //test for jump pointing to an address above base of memory page
 jb Negative
 cmp mod.base(cip),dis.imm(dis.imm($address)) //test for jump pointing to an address below base address of module
@@ -54,7 +54,7 @@ sti 2
 mov $address,cip
 Negative2:
 find $address+1,"E9"
-mov $address,$result
+mov $address,$res
 cmp mem.base(cip),dis.imm($address) //test for jump pointing to an address below base of the memory page
 ja Negative2
 cmp cip,dis.imm($address) //test for jump pointing to an address above cip
@@ -70,6 +70,7 @@ sti
 lbl cip,"OEP Found :)"
 log "OEP for MPRESS found at: {0}",cip
 guiupdateenable
+d
 
 //call TimeToDump
 ret
@@ -103,7 +104,7 @@ bphd
 bpmd
 bpddll
 DisableExceptionBPX
-labelclear (small addition for preventing label collusions)
+labelclear (small addition for preventing label collusions)\
 EnableLog
 //guiupdatedisable (for faster script execution)
 ret
@@ -111,7 +112,7 @@ ret
 //Calls a confirmation window for dumping target in Scylla
 TimeToDump:
 msgyn "Successfully found OEP! Wanna use Scylla to dump the target?"
-cmp 0,$result
+cmp 0,$res
 je noscylla
 scylla
 noscylla:
