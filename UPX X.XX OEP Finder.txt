@@ -6,7 +6,7 @@
 //                                       //
 ///////////////////////////////////////////
 // Prepared by: Blitzkrieg
-// Date       : 25th July 2020
+// Date       : 27th July 2020
 // Tested on  :
 //
 // Release  |      Target       
@@ -65,6 +65,7 @@ sti
 lbl cip,"OEP Found :)"
 log "OEP for UPX found at: {0}",cip
 guiupdateenable
+d
 
 //call TimeToDump
 ret
@@ -106,7 +107,7 @@ ret
 //Calls a confirmation window for dumping target in Scylla
 TimeToDump:
 msgyn "Successfully found OEP! Wanna use Scylla to dump the target?"
-cmp 0,$result
+cmp 0,$res
 je noscylla
 scylla
 noscylla:
