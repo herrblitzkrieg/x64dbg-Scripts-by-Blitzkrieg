@@ -1,5 +1,6 @@
 # x64dbg Scripts by Blitzkrieg
 
+[![HitCount](http://hits.dwyl.com/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg.svg)](http://hits.dwyl.com/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg)
 ![GitHub repo size](https://img.shields.io/github/repo-size/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg)
 ![GitHub open issues](https://img.shields.io/github/issues-raw/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg)
