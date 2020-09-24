@@ -9,7 +9,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg?style=social)
 ![Github forks](https://img.shields.io/github/forks/blitzkrieg99/x64dbg-Scripts-by-Blitzkrieg?style=social)
 
-Original unpacker scripts for x64dbg
+Original unpacker scripts for x64dbg. No further plugins required for execution. Start scripts anywhere but not after entry point.
 
 All unpacker scripts posted in here are original by Blitzkrieg.
 Don't ever use them for illegal purpose(s) anyhow!
